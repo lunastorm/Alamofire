@@ -219,7 +219,7 @@ public class Manager {
     }
 
     let delegate: SessionDelegate
-    let session: NSURLSession!
+    public var session: NSURLSession!
     let operationQueue: NSOperationQueue = NSOperationQueue()
 
     var automaticallyStartsRequests: Bool = true
